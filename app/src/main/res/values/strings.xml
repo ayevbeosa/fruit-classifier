@@ -16,7 +16,7 @@
 
 <resources>
     <string name="app_name">Fruit Classifier</string>
-    <string name="title_activity_classifier">Fruit Classifier</string>
+    <string name="title_activity_classifier">RC-BOATP5</string>
     <string name="recognise">Recognise</string>
     <string name="recognition_completed">Recognition completed.</string>
     <string name="take_photo">Take Photo</string>
