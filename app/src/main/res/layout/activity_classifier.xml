@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright (c) 2019. Ayevbeosa Iyamu. All rights reserved.
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -104,7 +103,7 @@
                     android:layout_marginEnd="16dp"
                     android:onClick="@{() -> viewModel.beginRecognition()}"
                     android:text="@{viewModel.modelStatus}"
-                    android:textColor="@color/textColorPrimary"
+                    android:textColor="?attr/colorOnPrimary"
                     android:textSize="20sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -136,7 +135,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="@{viewModel.labelName}"
-                            android:textColor="@color/textColorPrimary"
+                            android:textColor="?attr/colorOnPrimary"
                             android:textSize="22sp"
                             tools:text="Label Name" />
 
@@ -145,7 +144,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="@{viewModel.labelConfidence}"
-                            android:textColor="@color/textColorSecondary"
+                            android:textColor="@color/secondaryLightColor"
                             android:textSize="20sp"
                             tools:text="Confidence" />
 

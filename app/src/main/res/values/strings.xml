@@ -26,7 +26,7 @@
     <string name="permission_rationale">You need to give permission to access storage in order to choose your picture</string>
     <string name="give_permission">GIVE PERMISSION</string>
     <string name="error_creating_file">Sorry! there was an error! Try again.</string>
-    <string name="model_name">fruits_classifier_model</string>
+    <string name="model_name">fruits_model</string>
     <string name="getting_model_ready">Getting model ready…</string>
     <string name="model_ready">Model ready</string>
     <string name="recognising">Recognising&#8230;</string>

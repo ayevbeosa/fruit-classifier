@@ -80,10 +80,7 @@ class ClassifierViewModel(private val application: Application) : ViewModel() {
      */
     private fun configureHostedModelSource() {
         // Set conditions
-        val conditions = FirebaseModelDownloadConditions.Builder().also {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N)
-                it.requireDeviceIdle()
-        }.build()
+        val conditions = FirebaseModelDownloadConditions.Builder().build()
 
         _modelStatus.value = application.getString(R.string.getting_model_ready)
         // Model not ready disable button.
