@@ -127,7 +127,7 @@ class ClassifierViewModel(private val application: Application) : ViewModel() {
 
         // Create options for labelling -- involves setting confidence threshold.
         val labelerOptions = FirebaseVisionOnDeviceAutoMLImageLabelerOptions.Builder(remoteModel)
-            .setConfidenceThreshold(0.75f)
+            .setConfidenceThreshold(0.55f)
             .build()
 
         // Set options for labelling.
