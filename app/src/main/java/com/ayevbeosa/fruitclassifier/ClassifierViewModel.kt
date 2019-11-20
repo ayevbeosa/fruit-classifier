@@ -18,7 +18,6 @@ package com.ayevbeosa.fruitclassifier
 
 import android.app.Application
 import android.net.Uri
-import android.os.Build
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
